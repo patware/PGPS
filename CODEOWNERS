@@ -1,0 +1,9 @@
+# CODEOWNERS
+
+# --------------------------------------
+# Default ownership (fallback)
+# --------------------------------------
+
+# Applies to all files unless overridden
+
+* @patware

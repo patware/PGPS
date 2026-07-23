@@ -1,22 +1,78 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# --------------------------------------
+# Core normalization (CRITICAL)
+# --------------------------------------
 
-# Custom for Visual Studio
-*.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
+* text=auto eol=lf
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Explicit overrides for Windows-centric files
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=lf
+
+# --------------------------------------
+# Source code
+# --------------------------------------
+
+*.cs     text diff=csharp
+*.csproj text
+*.sln    text
+*.slnx   text
+*.props  text
+*.targets text
+
+*.py     text diff=python
+
+# JSON / config
+
+*.json   text
+*.yml    text
+*.yaml   text
+*.xml    text
+*.config text
+
+# Documentation
+
+*.md     text
+*.txt    text
+
+# --------------------------------------
+# Scripts
+# --------------------------------------
+
+*.sh     text eol=lf
+
+# --------------------------------------
+# Binary files (no diff / no merge)
+# --------------------------------------
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+*.zip binary
+*.tar binary
+*.gz  binary
+*.7z  binary
+
+*.dll binary
+*.exe binary
+*.pdb binary
+
+# --------------------------------------
+# Git-specific behavior improvements
+# --------------------------------------
+
+# Avoid noisy diffs for generated files
+
+*.lock merge=union
+
+# NuGet / package lock handling (optional strategy)
+
+packages.lock.json text
+
+# --------------------------------------
+# End of file
+# --------------------------------------

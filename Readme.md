@@ -16,13 +16,15 @@ Here's the convention used:
 - The private field's prefix is underscore ("_")
 
 If you have to write one property, use Visual Studio's prop snippet.
-If you have to write many, I think this utility good.  
+If you have to write many, I think this utility good.
 
 Wishlist: I'd like to be able to choose different output style
+
 1) All privates + all publics vs keep everything together
 2) I like Laurent Bugnion's MVVMLight output of the mvvminpc snippet, this will be my next feature to implement.
 
 History:
+
 - 1.1: 2009.11.17 - Added INotifyPropertyChanged
 
 - 1.0: 2006.05.29 - Created

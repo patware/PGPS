@@ -1,0 +1,58 @@
+{
+  // --------------------------------------
+  // General editor behavior
+  // --------------------------------------
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // --------------------------------------
+  // Formatting (respect .editorconfig)
+  // --------------------------------------
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  // --------------------------------------
+  // .NET / C# settings
+  // --------------------------------------
+  "dotnet.format.enable": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  // --------------------------------------
+  // PowerShell
+  // --------------------------------------
+  "powershell.codeFormatting.preset": "OTBS",
+  "powershell.scriptAnalysis.enable": true,
+  // --------------------------------------
+  // Python (Ruff-based workflow)
+  // --------------------------------------
+  "python.linting.enabled": true,
+  "python.linting.ruffEnabled": true,
+  "python.formatting.provider": "none",
+  // --------------------------------------
+  // Exclusions (performance + noise reduction)
+  // --------------------------------------
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.pytest_cache": true,
+    "**/**pycache**": true,
+    "**/artifacts": true
+  },
+  "search.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/artifacts": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
+}
