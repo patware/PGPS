@@ -1,103 +1,36 @@
 # Support
 
-## Purpose
+## Status
 
-This document describes how to get help when working with this repository.
+This project is a personal legacy application that is being reviewed and modernized.
 
----
+It has not had an official public release yet, and there is currently no formal support process.
 
-## When to Seek Help
+## Getting Help
 
-You should seek support if you encounter:
+If you have a question about the code, repository structure, or modernization effort, you may open a GitHub issue for general discussion.
 
-* Build or pipeline failures you cannot resolve
-* Unclear requirements or expected behavior
-* Issues with repository structure, standards, or tooling
-* Access or permission problems
+Please include:
 
----
+- A clear description of the question or problem
+- Relevant context
+- Steps to reproduce, if applicable
+- Error messages or screenshots, if available
 
-## Support Channels
+## Security Issues
 
-### 1. Repository Maintainers
+If your concern is security-related, please do not open a public issue.
 
-For questions related to:
-
-* Code structure and design
-* Contribution workflow
-* Pull requests and reviews
-
-Contact the repository maintainers (see `CODEOWNERS`).
-
----
-
-### 2. DevOps Team
-
-For issues related to:
-
-* GitHub Actions
-* Build and release processes
-* Tooling and automation
-
----
-
-### 3. Security Team
-
-For:
-
-* Potential vulnerabilities
-* Security concerns
-
-Refer to [SECURITY.md](SECURITY.md) for reporting guidelines.
-
----
-
-### 4. Team / Product Line Representatives
-
-For:
-
-* Functional questions
-* Prioritization and scope
-* Business context
-
----
-
-## How to Ask for Help
-
-When requesting support, include:
-
-* Clear description of the issue
-* Steps to reproduce (if applicable)
-* Error messages or logs
-* Relevant branch, commit, or PR
-
----
-
-## Self-Service
-
-Before requesting help, check:
-
-* [README.md](README.md)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [branch-guide.md](branch-guide.md)
-* Existing pull requests and history
-
----
+Refer to [SECURITY.md](SECURITY.md) for private reporting guidance.
 
 ## Response Expectations
 
-* Requests are handled based on priority and availability
-* Critical issues should be escalated through appropriate channels
-* Be respectful of others’ time—provide sufficient context
+Because this is a personal project, responses are provided on a best-effort basis.
 
----
+There is no guaranteed response time, fix timeline, or long-term support commitment at this stage.
 
-## Training Context
+## Future Direction
 
-This repository is used for demonstration purposes.
+The long-term goal is to modernize the application and prepare it for a first public release.
 
-You are encouraged to:
-
-* Explore and experiment
-* Trigger failures and investigate
-* Use support channels as part of the learning process
+If that happens, this support policy will be updated to reflect the new release and maintenance model.

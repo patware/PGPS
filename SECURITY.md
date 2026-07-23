@@ -1,103 +1,25 @@
 # Security Policy
 
-## Purpose
-
-This document explains how to report **security vulnerabilities** related to this repository.
-
-Timely and responsible reporting helps protect systems, data, and users.
-
----
-
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This project has not had an official public release yet.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.1.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Security updates are not currently provided for any version of the application.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security issue in this repository, please do not open a public issue or pull request.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead, report it privately by email to: patware@hotmail.com
 
----
+Please include:
 
-## What to Report
+- A description of the issue
+- Steps to reproduce it
+- The affected files or components
+- The potential impact
+- Any suggested mitigation or fix, if known
 
-Report any issue that could impact security, including:
+This is currently a personal project under modernization, so there is no formal support process or guaranteed response time. However, I will make a reasonable effort to review legitimate reports.
 
-* Exposure of secrets (credentials, tokens, keys)
-* Authentication or authorization flaws
-* Injection vulnerabilities (SQL, command, etc.)
-* Dependency vulnerabilities with known exploits
-* Misconfigurations that could lead to unauthorized access
-
-If in doubt, report the issue.
-
----
-
-## How to Report
-
-Do **not** create public issues or pull requests for security concerns.
-
-Instead, report through one of the following channels:
-
-* Contact the **repository maintainers**
-* Use internal incident or security reporting processes (if applicable)
-
----
-
-## What to Include
-
-When reporting a vulnerability, provide:
-
-* Description of the issue
-* Steps to reproduce
-* Impact assessment (what could happen)
-* Affected components or files
-* Suggested mitigation (if known)
-
----
-
-## Response Expectations
-
-* Reports will be acknowledged in a timely manner
-* Issues will be assessed and prioritized based on risk
-* Fixes will be implemented and validated before disclosure
-
----
-
-## Handling Sensitive Information
-
-* Do not share sensitive details in public channels
-* Limit distribution of vulnerability details to relevant stakeholders
-* Follow internal data handling and security policies
-
----
-
-## Scope
-
-This policy applies to:
-
-* Source code in this repository
-* Build and deployment configurations
-* Associated scripts and automation
-
----
-
-## Dependencies
-
-This repository relies on external dependencies. Known vulnerabilities in dependencies should be reported and addressed through standard update processes.
-
----
-
-## Disclaimer
-
-This repository is used for demonstration and training purposes.
-However, security practices demonstrated here reflect real-world expectations.
+Please keep vulnerability details private until I have had a chance to investigate and determine whether a fix is appropriate.
